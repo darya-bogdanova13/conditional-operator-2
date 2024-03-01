@@ -99,7 +99,7 @@ public class Main {
                 System.out.println("Зима");
                 break;
             default:
-                System.out.println("Такогомесяца не существует");
+                System.out.println("Такого месяца не существует");
         }
     }
 }
