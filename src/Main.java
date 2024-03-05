@@ -43,8 +43,8 @@ public class Main {
         } else if (clientOS0 == 1 && clientDeviceYear >= 15) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
-        int year = 2016;
-        if (year >= 1584 && year % 4 == 0) {
+        int year = 2000;
+        if (year >= 1584 && year % 4 == 0 && year %100 !=0) {
             System.out.println("Год является високосным");
         } else {
             System.out.println("Год не является високосным");
